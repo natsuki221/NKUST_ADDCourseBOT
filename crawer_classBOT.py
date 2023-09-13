@@ -15,9 +15,9 @@ options = Options()
 options.add_argument('--disable-notifications')
 chrome = webdriver.Chrome(options=options)
 # chrome = webdriver.Chrome('./chromedriver')
-userID = 'C110118101'
-passwrd = 'Kino1216'
-course_code = '2256'
+userID = '你的學號'
+passwrd = '你的密碼'
+course_code = '課程代碼'
 
 urls = ['https://aais6.nkust.edu.tw/selcrs_std', 'https://aais7.nkust.edu.tw/selcrs_std', 'https://aais8.nkust.edu.tw/selcrs_std']
 url1 = 'https://aais6.nkust.edu.tw/selcrs_std'
